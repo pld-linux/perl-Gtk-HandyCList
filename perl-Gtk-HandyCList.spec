@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Gtk
-%define	pnam	HandyCList
+%define		pdir	Gtk
+%define		pnam	HandyCList
 Summary:	Gtk::HandyCList - a more Perl-friendly columned list
 Summary(pl):	Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
 Name:		perl-Gtk-HandyCList
