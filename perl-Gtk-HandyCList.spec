@@ -8,15 +8,17 @@
 Summary:	Gtk::HandyCList - a more Perl-friendly columned list
 Summary(pl):	Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
 Name:		perl-Gtk-HandyCList
-Version:	0.02
+Version:	0.03
 Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	810649e418aaf64d9c142bb05a21c934
+# Source0-md5:	d61e94a7bfede08010b75948123c0e7b
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%{?with_tests:BuildRequires:	perl-gnome}
+%if %{with tests}
+BuildRequires:	perl-gnome
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
