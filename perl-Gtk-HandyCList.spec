@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Gtk
 %define	pnam	HandyCList
-Summary:	Gtk::HandyCList - a more Perl-friendly Columned List
-Summary(pl):	Gtk::HandyCList - bardziej przyjazny perlowi widget listy kolumnowej
+Summary:	Gtk::HandyCList - a more Perl-friendly columned list
+Summary(pl):	Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
 Name:		perl-Gtk-HandyCList
 Version:	0.02
 Release:	1
