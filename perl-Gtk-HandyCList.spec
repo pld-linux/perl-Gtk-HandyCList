@@ -6,7 +6,7 @@
 %define		pdir	Gtk
 %define		pnam	HandyCList
 Summary:	Gtk::HandyCList - a more Perl-friendly columned list
-Summary(pl):	Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
+Summary(pl.UTF-8):   Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
 Name:		perl-Gtk-HandyCList
 Version:	0.03
 Release:	1
@@ -30,12 +30,12 @@ titles are clicked, the list will be re-sorted according to
 user-supplied functions or some default rules. It allows you to
 reference columns by name, instead of by number.
 
-%description -l pl
-To jest wersja Gtk::Clist dbaj±ca za programistê o parê powszechnych
-zachowañ. Na przyk³ad ¶ledzi co jest zapisane w li¶cie, wiêc nie
-trzeba przechowywaæ oddzielnej tablicy; po klikniêciu na tytu³y lista
-zostanie przesortowana zgodnie z podanymi funkcjami lub jakimi¶
-domy¶lnymi regu³ami. Widget pozwala na odwo³ywanie siê do kolumn po
+%description -l pl.UTF-8
+To jest wersja Gtk::Clist dbajÄ…ca za programistÄ™ o parÄ™ powszechnych
+zachowaÅ„. Na przykÅ‚ad Å›ledzi co jest zapisane w liÅ›cie, wiÄ™c nie
+trzeba przechowywaÄ‡ oddzielnej tablicy; po klikniÄ™ciu na tytuÅ‚y lista
+zostanie przesortowana zgodnie z podanymi funkcjami lub jakimiÅ›
+domyÅ›lnymi reguÅ‚ami. Widget pozwala na odwoÅ‚ywanie siÄ™ do kolumn po
 nazwie zamiast po numerze.
 
 %prep
