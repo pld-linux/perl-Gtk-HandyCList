@@ -6,7 +6,7 @@
 %define		pdir	Gtk
 %define		pnam	HandyCList
 Summary:	Gtk::HandyCList - a more Perl-friendly columned list
-Summary(pl.UTF-8):   Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
+Summary(pl.UTF-8):	Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
 Name:		perl-Gtk-HandyCList
 Version:	0.03
 Release:	1
