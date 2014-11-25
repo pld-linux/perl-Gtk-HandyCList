@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Gtk
 %define		pnam	HandyCList
+%include	/usr/lib/rpm/macros.perl
 Summary:	Gtk::HandyCList - a more Perl-friendly columned list
 Summary(pl.UTF-8):	Gtk::HandyCList - bardziej przyjazny Perlowi widget listy kolumnowej
 Name:		perl-Gtk-HandyCList
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d61e94a7bfede08010b75948123c0e7b
+URL:		http://search.cpan.org/dist/Gtk-HandyCList/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
